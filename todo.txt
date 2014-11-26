@@ -1,0 +1,34 @@
+PRETTIFY
+- refine styling of fonts, use alternating colours for category titles
+
+STRUCTURAL
+- extra redirects (see notes)
+- customize search results page & display
+
+
+
+CONTENT
+- donate page?
+- Email CARRIE re: formatting & cleanup (staff page, logo problem partners)
+- move things
+
+
+DOCUMENTATION
+
+- create basic manual
+- adding a post
+- adding a location
+- adding a slide
+- formatting + best practises 
+- category management
+- menu editing
+
+
+
+
+
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAlliance-for-Community-Trees%2F19980643913&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=254467357930484" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+
+
+	<a href="https://twitter.com/Alliance4Trees" class="twitter-follow-button" data-show-count="false">Follow @Alliance4Trees</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
