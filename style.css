@@ -1,3 +1,5 @@
+@import url("socicon/socicon.css");
+
 /******************************************************************
 Theme Name: ACTrees
 Theme URI: http://www.themble.com/bones
@@ -1344,31 +1346,61 @@ footer[role=contentinfo] {
   border-right: none;
 } footer[role=contentinfo] a {
   text-decoration: none;
+} 
 
 
-} .textwidget li {
-  font-size: 1.1em;
+/* social media links */
+.widget .social-media { margin: -10px 0; }
+.social-media li {
+  font-size: 1.25em;
   line-height: 18px;
-  margin: 0 0 10px;
-  text-indent: 5px;
-} .textwidget li:before {
-  content: '';
-  width: 15px; height: 15px;
-  display: block;
-  float: left;
-  background: #fff url('library/images/social.png') top left;
-} .textwidget li:hover:before {
-  border: 1px solid white;
-  
-} li#facebook:before {
-  background-position: 0 -17px;
-} li#twitter:before {
-  background-position: 0 -33px;
-} li#flickr:before {
-  background-position: 0 -66px;
-} li#youtube:before {
-  background-position: 0 -50px;
+  margin: 0 0 7px;
+  text-indent: 0px;
+  list-style-type: none;
+} 
+.socicon {
+  position: relative;
+  margin: 0px 7px 0 0;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  text-decoration: none;
+  vertical-align: -2px;
 }
+a:hover .socicon { background: #fff !important; }
+
+.socicon.twitter:before { content: "a"; }
+.socicon.twitter { background: #4da7de; }
+a:hover .socicon.twitter { color: #4da7de; }
+
+.socicon.facebook:before { content: "b"; }
+.socicon.facebook { background: #3e5b98; }
+a:hover .socicon.facebook { color: #3e5b98; }
+
+.socicon.flickr:before { content: "v"; }
+.socicon.flickr { background: #1e1e1b; }
+a:hover .socicon.flickr { color: #1e1e1b; }
+
+.socicon.youtube:before { content: "r"; }
+.socicon.youtube { background: #e02a20; }
+a:hover .socicon.youtube { color: #e02a20; }
+
+.socicon.instagram:before { content: "x"; }
+.socicon.instagram { background: #9c7c6e; }
+a:hover .socicon.instagram { color: #9c7c6e; }
+
+.socicon.rss:before { content: ","; }
+.socicon.rss { background: #f26109; }
+a:hover .socicon.rss { color: #f26109; }
+
 
 
 
